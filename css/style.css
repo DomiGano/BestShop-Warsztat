@@ -32,10 +32,20 @@ color: #707070 ;
     box-sizing: border-box;
 }
 
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #08A6E4;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
 .container {
     max-width: 1352px;
     margin: 0 auto;
 }
+
+/* ELEMENTY HTML */
 
 header {
     font-family: Open Sans;
@@ -95,11 +105,214 @@ header {
     flex-direction: column;
 }
 
-.header_content_backgound {
+.header_title {
+    font-size: 49px;
+    line-height: 57px;
+    font-family: Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.header_text {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 38px;
+}
+
+
+.header_btn {
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    padding: 22px 157px;
+}
+
+/* STATYSTYKI*/
+
+.statistics {
+    font-family: Raleway;
+    background-color:#fff;
+    box-shadow: 0px -5px 80px #00000029
+}
+
+.statistics .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics_container {
     width: 100%;
-    height: 594px;
-    background: transparent url(../images/Background.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 122px;
+}
+
+.statistics_title {
+    font-size: 36px;
+    line-height: 42px;
+    margin: 100px 0;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.stat_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.stat_icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    height: 63px;
+}
+
+.stat_img {
+    position: relative;
+    z-index: +1;
+    left: 50%;
+    transition: ease-in-out all 1s;
+}
+
+.stat_box:nth-child(2) > .stat_icon img {
+    left: 30%
+}
+
+.stat_icon:before{
+ content: "";
+ background-color: red;
+ display: block;
+ position: absolute;
+ height: 63px;
+ width: 63px;
+ border-radius: 50%;
+ z-index: 0;
+ 
+}
+
+.stat_box:nth-child(1) > .stat_icon img:hover,
+.stat_box:nth-child(2) > .stat_icon img:hover,
+.stat_box:nth-child(3) > .stat_icon img:hover {
+    left: 0%
+}
+
+.stat_box:nth-child(1) > .stat_icon:before {
+    background-color: #FB3B64;
+}
+
+.stat_box:nth-child(2) > .stat_icon:before {
+    background-color: #08A6E4;
+}
+
+.stat_box:nth-child(3) > .stat_icon:before {
+    background-color: #55DFB4;
+}
+
+.stat_title {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 6px;
+    color: #000000;
+}
+
+.stat_text {
+    margin-top: 19px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+}
+
+/* BENEFITY */
+
+.benefits_container {
+    background-color: #F7F7F7;
+    
+}
+
+.benefits_container > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 105px 0;
+
+}
+
+.benefits_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    height: 370px;
+    margin: 19px 0;
+    padding: 35px;
+}
+
+
+.benefits_box:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.benefits_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.background_square::before,
+.background_circle::before {
+    content: "";
+    position: absolute;
+    display: block;
+}
+
+.background_square::before {
+    width: 180px;
+    height: 180px;
+    background-color: #FB3B64;
+    border-radius: 41px;
+    transform: rotate(40deg);
+    z-index: 0;
+    left: 50%;
+    bottom: 30%;
+}
+
+.background_circle::before {
+    background-color: #07ACE6;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    left: 5%;
+    bottom: 5%;
+
+}
+
+.benefits_img img {
+    width: 75%;
+    z-index: 1;
+}
+
+.benefits_box:nth-child(3) {
+    width: 60%;
+}
+
+.benefits_box:nth-child(4) {
+    width: 35%;
+    background-color: #55DFB4;
 }
