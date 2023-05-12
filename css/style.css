@@ -41,11 +41,19 @@ color: #707070 ;
     background-color: var(--main-color);
     font-family: Open Sans;
     font-weight: 700;
+    cursor:pointer;
 }
 
 .container {
     max-width: 1352px;
     margin: 0 auto;
+}
+
+.basic_title {
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
 }
 
 /* ELEMENTY HTML */
@@ -154,12 +162,10 @@ header {
     margin-bottom: 122px;
 }
 
+
 .statistics_title {
-    font-size: 36px;
-    line-height: 42px;
     margin: 100px 0;
-    letter-spacing: 0px;
-    color: #000000;
+    
 }
 
 .stat_box {
@@ -392,3 +398,165 @@ header {
     max-width: 296px;
     margin-top: 50px;
 }
+
+/* PRICING */
+
+.pricing_main_box {
+    background-color: var(--color-white);
+
+}
+
+.pricing_main_box .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing_main_title {
+    margin-top: 100px;
+    margin-bottom: 71px;
+}
+
+.pricing_boxes_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 59px;
+    margin-bottom: 197px;
+}
+
+.pricing_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 372px;
+    height: 461px;
+    background-color: var(--color-white);
+    border: 1px solid;
+    border-radius: 18px;
+    font-family: Open Sans;
+    position: relative;
+}
+
+.pricing_box_title {
+    margin-top: 34px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1px;
+    font-family: Raleway;
+    color: #13253B;
+}
+
+.pricing_box_price {
+    display: inline-block;
+    padding: 9px;
+    margin-top: 14px;
+    font-size: 46px;
+    font-weight: 300;
+    margin-bottom: 70px;
+    
+}
+
+.parametr_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parametr_list li {
+    font-size: 14px;
+    line-height: 41px;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+}
+
+.check_mark {
+    position: relative;
+}
+
+.check_mark::before {
+    content: url(../images/Checkmark-1.svg);
+    margin-right: 10px;
+}
+
+.cross_mark::before {
+    content: url(../images/Close.svg);
+    margin-right: 10px ;
+}
+
+.cross_mark::before, 
+.check_mark::before {
+    margin-right: 10px;
+}
+
+.btn_pricing {
+    padding: 4px 57px;
+    border-radius: 23px;
+    position: absolute;
+    bottom: -25px;
+    font-size: 13px;
+    line-height: 41px;
+    transition: ease-out all 500ms;
+}
+
+.btn_pricing:hover {
+    scale: 1.05;
+    border-radius: 15px;
+}
+
+.pricing_box_price--special {
+    margin-bottom: 0;
+}
+
+.pricing_special_offert {
+    margin-top: 5px;
+    margin-bottom: calc(70px - 24px);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Raleway;
+    color: #13253B;
+}
+
+.pricing_box--basic {
+    border: 1px solid var(--color-red);
+}
+
+.pricing_box_price--basic {
+    color: var(--color-red);
+}
+
+.btn_pricing--basic {
+    background-color: var(--color-red);
+}
+
+.pricing_box--profesional {
+    border: 1px solid var(--main-color);
+}
+
+.pricing_box_price--profesional {
+    color: var(--main-color);
+}
+
+.btn_pricing--profesional {
+    background-color: var(--main-color);
+}
+
+.pricing_box--premium {
+    border: 1px solid var(--color-green);
+}
+
+.pricing_box_price--premium {
+    color: var(--color-green);
+}
+
+.btn_pricing--premium {
+    background-color: var(--color-green);
+}
+
+.pricing_box--zoom {
+    transform: scale(1.08);
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
