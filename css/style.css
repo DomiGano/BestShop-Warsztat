@@ -33,6 +33,7 @@ color: #707070 ;
 
 * {
     box-sizing: border-box;
+    cursor:default;
 }
 
 .btn {
@@ -560,3 +561,128 @@ header {
     box-shadow: 5px 10px 27px #07ACE629;
 }
 
+/* CONTACT FORM */
+
+
+.contact_main_box .container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 59px;
+    width: 900px;
+}
+
+.information_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_data_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_data {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.info_text {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Open Sans;
+    font-weight: 600;
+    color: #A5A5A5;
+}
+
+
+.information_title {
+    font-size: 49px;
+    line-height: 57px;
+    color: #000;
+    font-family: Raleway;
+}
+
+.information_text {
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Open Sans;
+    color: #000;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+}
+
+.contact_form_input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #A5A5A5;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.contact_label[for="E-mail"] {
+    margin-top: 12px;
+}
+
+.contact_label {
+    color: var(--main-color);
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 700;
+    font-family: Open Sans;
+    text-transform: uppercase;
+    letter-spacing: 3.28px;
+}
+
+ .checkbox_lable input {
+    width: 0;
+    height: 0;
+}
+.checkbox_lable_text {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Open Sans;
+    color: #707070;
+}
+
+
+.checkbox_lable {
+    margin-left: 34px;
+    position: relative;
+}
+
+.checkbox_lable input::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border: 1px solid #95989A;
+    border-radius: 4px;
+    position: absolute;
+    left: -34px;
+    top: 0;
+}
+
+.checkbox_lable input:checked::before {
+    background-image: url(../images/Checkmark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+
+
+
+
+.form_btn {
+    align-self: flex-end;
+    margin-top: 20px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 35px;
+    padding: 20px 97px;
+    border: none;
+}
