@@ -117,7 +117,7 @@
             flex-direction: column;
             align-items: center;
             margin-top: 130px;
-            
+                      
             .header_title {
                 font-size: 49px;
                 line-height: 57px;
@@ -138,6 +138,15 @@
                 line-height: 22px;
                 box-shadow: 5px 10px 14px colors.$shadow-color;
                 padding: 22px 157px;
+            }
+            @media (max-width: 1352px) {
+            .header_text {
+                text-align: center;
+            }
+            .header_btn {
+                text-align: center;
+                padding: 22px 92px;
+            }
             }
         }
     }

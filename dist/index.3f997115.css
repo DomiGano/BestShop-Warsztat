@@ -382,4 +382,15 @@ textarea {
   box-shadow: 5px 10px 14px #07ace629;
 }
 
+@media (width <= 1352px) {
+  .header .header_content .container .header_text {
+    text-align: center;
+  }
+
+  .header .header_content .container .header_btn {
+    text-align: center;
+    padding: 22px 92px;
+  }
+}
+
 /*# sourceMappingURL=index.3f997115.css.map */
