@@ -1,0 +1,35 @@
+@use "../settings/colors";
+@use "../settings/fonts";
+
+.btn {
+    text-decoration: none;
+    color: colors.$color-white;
+    background-color: colors.$main-color;
+    font-family: fonts.$font-open-sans;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+
+    @media (min-width: 1352px) {
+        width: 1352px;
+        margin: 0 auto;
+    }
+}
+
+.basic_title {
+    font-family: fonts.$font-raleway;
+    font-size: 36px;
+    line-height: 42px;
+    color: colors.$color-black;
+}
+
+.logo {
+    font-weight: 300;
+    font-family: fonts.$font-raleway;
+    color: colors.$main-color;
+}

@@ -2,6 +2,12 @@
     "folders": [
         {
             "path": ".."
+        },
+        {
+            "path": "../../../../CodersLab/Moje testy"
+        },
+        {
+            "path": "../../../MODUŁ 2/ONL_FER_W_30_Sass_RWD"
         }
     ]
 }
