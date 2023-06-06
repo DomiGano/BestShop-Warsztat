@@ -1,0 +1,73 @@
+@use "../settings/colors";
+@use "../settings/fonts";
+
+.header {
+    font-family: fonts.$font-raleway;
+    .nav_bar {
+        width: 100%;
+        box-shadow: 0px 3px 6px #00000029;
+            .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .nav_logo_text {
+                font-size: 32px;
+                line-height: 37px;
+            }
+            .navigation_list {
+                display: flex;
+                align-items: center;
+                .navigation_text {
+                    max-height: 70px;
+                    text-decoration: none;
+                    padding: 28px 12px;
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    line-height: 15px;
+                    font-weight: 700; 
+                    letter-spacing: 3.28px;
+                    color: colors.$color-light-gray;
+                    margin-left: 71px;
+                    border-bottom: solid 4px transparent;
+                    &:hover {
+                        color: colors.$color-black;
+                        border-bottom: solid 4px colors.$main-color;
+                    }
+                }
+            }
+            
+        }
+    }
+    .header_content {
+        display: flex;
+        flex-direction: column;
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 130px;
+            .header_title {
+                font-size: 49px;
+                line-height: 57px;
+                font-family: fonts.$font-raleway;
+                color: colors.$color-black;
+                margin-bottom: 20px;
+            }
+            .header_text {
+                font-size: 16px;
+                line-height: 22px;
+                color: colors.$color-black;
+                margin-bottom: 38px;
+            }
+
+
+            .header_btn {
+                border-radius: 40px;
+                font-size: 16px;
+                line-height: 22px;
+                box-shadow: 5px 10px 14px colors.$shadow-color;
+                padding: 22px 157px;
+            }
+        }
+    }
+}
