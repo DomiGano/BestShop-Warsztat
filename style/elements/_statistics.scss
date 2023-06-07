@@ -1,8 +1,8 @@
 @use "../settings/colors";
 @use "../settings/fonts";
+@use "../settings/variables";
 @use "sass:list";
 
-$colorList: colors.$color-red, colors.$main-color, colors.$color-green;
 
 .statistics {
     font-family: fonts.$font-raleway;
@@ -42,7 +42,7 @@ $colorList: colors.$color-red, colors.$main-color, colors.$color-green;
                 justify-content: start;
                 @for $i from 1 through 3 {
                     &:nth-child(#{$i}) > .stat_icon:before {
-                        background-color: nth($list: $colorList , $n: $i);
+                        background-color: nth($list: variables.$colorList, $n: $i);
                     }
                 }
                 &:nth-child(2) > .stat_icon img {
