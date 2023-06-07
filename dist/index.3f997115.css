@@ -393,4 +393,111 @@ textarea {
   }
 }
 
+.statistics {
+  background-color: #fff;
+  font-family: Raleway, sans-serif;
+  box-shadow: 0 -5px 80px #00000029;
+}
+
+.statistics .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.statistics .container .statistics_title {
+  margin: 100px 0;
+}
+
+@media (width <= 1352px) {
+  .statistics .container .statistics_title {
+    text-align: center;
+    margin: 50px 0;
+  }
+}
+
+.statistics .container .statistics_container {
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 122px;
+  display: flex;
+}
+
+@media (width <= 1352px) {
+  .statistics .container .statistics_container {
+    margin-bottom: 50px;
+    display: block;
+  }
+
+  .statistics .container .statistics_container .stat_box:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+.statistics .container .statistics_container .stat_box {
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+}
+
+.statistics .container .statistics_container .stat_box:first-child > .stat_icon:before {
+  background-color: #fb3b64;
+}
+
+.statistics .container .statistics_container .stat_box:nth-child(2) > .stat_icon:before {
+  background-color: #08a6e4;
+}
+
+.statistics .container .statistics_container .stat_box:nth-child(3) > .stat_icon:before {
+  background-color: #55dfb4;
+}
+
+.statistics .container .statistics_container .stat_box:nth-child(2) > .stat_icon img {
+  left: 30%;
+}
+
+.statistics .container .statistics_container .stat_box .stat_icon {
+  height: 63px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 14px;
+  display: flex;
+  position: relative;
+}
+
+.statistics .container .statistics_container .stat_box .stat_icon:before {
+  content: "";
+  height: 63px;
+  width: 63px;
+  z-index: 0;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+.statistics .container .statistics_container .stat_box .stat_icon .stat_img {
+  z-index: 1;
+  transition: all 1s ease-in-out;
+  position: relative;
+  left: 50%;
+}
+
+.statistics .container .statistics_container .stat_box .stat_title {
+  letter-spacing: 6px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.statistics .container .statistics_container .stat_box .stat_text {
+  text-align: center;
+  color: #a5a5a5;
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
 /*# sourceMappingURL=index.3f997115.css.map */

@@ -1,0 +1,94 @@
+@use "../settings/colors";
+@use "../settings/fonts";
+@use "sass:list";
+
+$colorList: colors.$color-red, colors.$main-color, colors.$color-green;
+
+.statistics {
+    font-family: fonts.$font-raleway;
+    background-color: colors.$color-white;
+    box-shadow: 0px -5px 80px #00000029;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .statistics_title {
+            margin: 100px 0;
+            @media (max-width:1352px) {
+                text-align: center;
+                margin: 50px 0;
+            }
+            
+        }
+        .statistics_container {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 122px;
+
+            @media (max-width:1352px) {
+                display: block;
+                margin-bottom: 50px;
+                .stat_box:not(:last-child) {
+                    margin-bottom: 25px;
+                }
+            }
+
+            .stat_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+                @for $i from 1 through 3 {
+                    &:nth-child(#{$i}) > .stat_icon:before {
+                        background-color: nth($list: $colorList , $n: $i);
+                    }
+                }
+                &:nth-child(2) > .stat_icon img {
+                    left: 30%
+                }
+                .stat_icon {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 14px;
+                    height: 63px;
+                    &:before{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        height: 63px;
+                        width: 63px;
+                        border-radius: 50%;
+                        z-index: 0;
+                        
+                       }
+                    .stat_img {
+                        position: relative;
+                        z-index: +1;
+                        left: 50%;
+                        transition: ease-in-out all 1s;
+                    }
+                }
+                .stat_title {
+                    font-size: 20px;
+                    font-weight: 800;
+                    line-height: 24px;
+                    letter-spacing: 6px;
+                    color: colors.$color-black;
+                }
+                
+                .stat_text {
+                    margin-top: 19px;
+                    text-align: center;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: colors.$color-light-gray;
+                }
+            }
+        }
+    }
+}
+
