@@ -1,0 +1,140 @@
+@use "../settings/colors";
+@use "../settings/fonts";
+@use "../settings/variables";
+@use "../settings/mixins";
+@use "sass:list";
+
+
+.pricing_main_box {
+    background-color: colors.$color-white;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .pricing_main_title {
+            margin-top: 100px;
+            margin-bottom: 71px;
+        }
+        .pricing_boxes_container {
+            display: flex;
+            justify-content: space-between;
+            gap: 59px;
+            margin-bottom: 197px;
+            .pricing_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 372px;
+                height: 461px;
+                background-color: colors.$color-white;
+                border: 1px solid;
+                border-radius: 18px;
+                font-family: fonts.$font-open-sans;
+                position: relative;
+                &--basic {
+                    border: 1px solid colors.$color-red;
+                }
+                &--profesional {
+                    border: 1px solid colors.$main-color;
+                }
+                &--premium {
+                    border: 1px solid colors.$color-green;
+                }
+                &--zoom {
+                    transform: scale(1.08);
+                    box-shadow: 5px 10px 27px colors.$shadow-color;
+                }
+                .pricing_box_title {
+                    margin-top: 34px;
+                    margin-bottom: 14px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 1px;
+                    font-family: fonts.$font-raleway;
+                    color: #13253B;
+                }
+                .pricing_special_offert {
+                    margin-top: 5px;
+                    margin-bottom: calc(70px - 24px);
+                    font-size: 12px;
+                    font-weight: 700;
+                    font-family: fonts.$font-raleway;
+                    color: #13253B;
+                }
+                .pricing_box_price {
+                    display: inline-block;
+                    padding: 9px;
+                    margin-top: 14px;
+                    font-size: 46px;
+                    font-weight: 300;
+                    margin-bottom: 70px;
+                    &--basic {
+                        color: colors.$color-red;
+                    }
+                    &--profesional {
+                        color: colors.$main-color;
+                    }
+                    &--premium {
+                        color: colors.$color-green;
+                    }
+                    &--special {
+                        margin-bottom: 0;
+                    }
+                    
+                    
+                }
+                .parametr_list {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    li {
+                        font-size: 14px;
+                        line-height: 41px;
+                        color: colors.$color-black;
+                        position: relative;
+                        display: inline-block;
+                        
+                    }
+                    .check_mark {
+                        position: relative;
+                        &::before {
+                            content: url(../images/Checkmark-1.svg);
+                            margin-right: 10px;
+                        }
+                    }
+                    .cross_mark::before {
+                        content: url(../images/Close.svg);
+                        margin-right: 10px ;
+                    }
+                }
+                .btn_pricing {
+                    padding: 4px 57px;
+                    border-radius: 23px;
+                    position: absolute;
+                    bottom: -25px;
+                    font-size: 13px;
+                    line-height: 41px;
+                    transition: ease-out all 500ms;
+                    &:hover {
+                    scale: 1.05;
+                    border-radius: 15px;
+                    }
+                    &--basic {
+                        background-color: colors.$color-red;
+                    }
+                    &--profesional {
+                        background-color: colors.$main-color;
+                    }
+                    &--premium {
+                        background-color: colors.$color-green;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+

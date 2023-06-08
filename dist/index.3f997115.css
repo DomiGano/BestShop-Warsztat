@@ -741,4 +741,156 @@ textarea {
   }
 }
 
+.pricing_main_box {
+  background-color: #fff;
+}
+
+.pricing_main_box .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pricing_main_box .container .pricing_main_title {
+  margin-top: 100px;
+  margin-bottom: 71px;
+}
+
+.pricing_main_box .container .pricing_boxes_container {
+  justify-content: space-between;
+  gap: 59px;
+  margin-bottom: 197px;
+  display: flex;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box {
+  width: 372px;
+  height: 461px;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 18px;
+  flex-direction: column;
+  align-items: center;
+  font-family: Open Sans, sans-serif;
+  display: flex;
+  position: relative;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box--basic {
+  border: 1px solid #fb3b64;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box--profesional {
+  border: 1px solid #08a6e4;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box--premium {
+  border: 1px solid #55dfb4;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box--zoom {
+  transform: scale(1.08);
+  box-shadow: 5px 10px 27px #07ace629;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_title {
+  color: #13253b;
+  margin-top: 34px;
+  margin-bottom: 14px;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1px;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_special_offert {
+  color: #13253b;
+  margin-top: 5px;
+  margin-bottom: 46px;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_price {
+  margin-top: 14px;
+  margin-bottom: 70px;
+  padding: 9px;
+  font-size: 46px;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_price--basic {
+  color: #fb3b64;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_price--profesional {
+  color: #08a6e4;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_price--premium {
+  color: #55dfb4;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_price--special {
+  margin-bottom: 0;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list li {
+  color: #000;
+  font-size: 14px;
+  line-height: 41px;
+  display: inline-block;
+  position: relative;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list .check_mark {
+  position: relative;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list .check_mark:before {
+  content: url("Checkmark-1.49adf3b1.svg");
+  margin-right: 10px;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list .cross_mark:before {
+  content: url("Close.f14f7566.svg");
+  margin-right: 10px;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .btn_pricing {
+  border-radius: 23px;
+  padding: 4px 57px;
+  font-size: 13px;
+  line-height: 41px;
+  transition: all .5s ease-out;
+  position: absolute;
+  bottom: -25px;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .btn_pricing:hover {
+  border-radius: 15px;
+  scale: 1.05;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .btn_pricing--basic {
+  background-color: #fb3b64;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .btn_pricing--profesional {
+  background-color: #08a6e4;
+}
+
+.pricing_main_box .container .pricing_boxes_container .pricing_box .btn_pricing--premium {
+  background-color: #55dfb4;
+}
+
 /*# sourceMappingURL=index.3f997115.css.map */
