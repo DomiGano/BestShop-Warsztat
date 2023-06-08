@@ -1,10 +1,11 @@
 @use "../settings/colors";
 @use "../settings/fonts";
+@use "../settings/mixins";
 
 
 .header {
     font-family: fonts.$font-raleway;
-    @media (max-width: 1352px) {
+    @include mixins.notebook {
         height: 100vh;
         .header_img_box {
             overflow: hidden;
@@ -62,7 +63,7 @@
                     }
                 }
             }
-            @media (max-width: 1352px) {
+            @include mixins.mobile {
                 .menu_icon--burger {
                     display: block;
                     position: relative;
@@ -139,7 +140,7 @@
                 box-shadow: 5px 10px 14px colors.$shadow-color;
                 padding: 22px 157px;
             }
-            @media (max-width: 1352px) {
+            @include mixins.notebook {
             .header_text {
                 text-align: center;
             }

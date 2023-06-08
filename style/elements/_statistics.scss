@@ -1,6 +1,7 @@
 @use "../settings/colors";
 @use "../settings/fonts";
 @use "../settings/variables";
+@use "../settings/mixins";
 @use "sass:list";
 
 
@@ -15,7 +16,7 @@
         align-items: center;
         .statistics_title {
             margin: 100px 0;
-            @media (max-width:1352px) {
+            @include mixins.mobile {
                 text-align: center;
                 margin: 50px 0;
             }
@@ -27,7 +28,7 @@
             justify-content: space-around;
             margin-bottom: 122px;
 
-            @media (max-width:1352px) {
+            @include mixins.mobile {
                 display: block;
                 margin-bottom: 50px;
                 .stat_box:not(:last-child) {
