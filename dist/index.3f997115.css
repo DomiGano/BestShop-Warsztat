@@ -790,6 +790,7 @@ textarea {
     width: auto;
     flex-direction: column;
     gap: 54px;
+    margin-bottom: 53px;
   }
 }
 
