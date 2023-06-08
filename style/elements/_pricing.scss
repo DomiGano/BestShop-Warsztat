@@ -7,20 +7,41 @@
 
 .pricing_main_box {
     background-color: colors.$color-white;
+    @include mixins.tablet {
+     padding: 18px;       
+    }
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       
+
         .pricing_main_title {
             margin-top: 100px;
             margin-bottom: 71px;
+            @include mixins.tablet {
+                margin-top: 54px;
+                margin-bottom: 14px;
+            }
         }
         .pricing_boxes_container {
             display: flex;
             justify-content: space-between;
             gap: 59px;
             margin-bottom: 197px;
+            
+            @include mixins.notebook {
+                justify-content: space-around;
+                gap: 20px;
+                width: 100%;
+            }
+            
+            @include mixins.tablet {
+                flex-direction: column;
+                width: auto;
+                gap: 54px;
+            }
             .pricing_box {
                 display: flex;
                 flex-direction: column;
@@ -32,6 +53,9 @@
                 border-radius: 18px;
                 font-family: fonts.$font-open-sans;
                 position: relative;
+               
+                
+
                 &--basic {
                     border: 1px solid colors.$color-red;
                 }
@@ -44,6 +68,14 @@
                 &--zoom {
                     transform: scale(1.08);
                     box-shadow: 5px 10px 27px colors.$shadow-color;
+                    @include mixins.tablet {
+                        .pricing_box--text{
+                            transform: scale(0.92);
+                        }
+                        .parametr_list {
+                            transform: scale(0.92);
+                        }
+                    }
                 }
                 .pricing_box_title {
                     margin-top: 34px;
@@ -53,6 +85,9 @@
                     line-height: 1px;
                     font-family: fonts.$font-raleway;
                     color: #13253B;
+                    @include mixins.tablet {
+                        margin-top: 0;
+                    }
                 }
                 .pricing_special_offert {
                     margin-top: 5px;
@@ -61,6 +96,9 @@
                     font-weight: 700;
                     font-family: fonts.$font-raleway;
                     color: #13253B;
+                    @include mixins.tablet {
+                        margin-bottom: 0;
+                    }
                 }
                 .pricing_box_price {
                     display: inline-block;
@@ -69,6 +107,10 @@
                     font-size: 46px;
                     font-weight: 300;
                     margin-bottom: 70px;
+                    @include mixins.tablet {
+                        margin: 0;
+
+                    }
                     &--basic {
                         color: colors.$color-red;
                     }
@@ -88,12 +130,18 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    @include mixins.tablet {
+                        align-items: flex-start;
+                    }
                     li {
                         font-size: 14px;
                         line-height: 41px;
                         color: colors.$color-black;
                         position: relative;
                         display: inline-block;
+                        @include mixins.tablet {
+                            line-height: 34px;
+                        }
                         
                     }
                     .check_mark {
@@ -129,6 +177,27 @@
                     &--premium {
                         background-color: colors.$color-green;
                     }
+                }
+                
+                @include mixins.tablet {
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    width: auto;
+                    height: auto;
+                    padding: 40px 15px 40px 15px;
+                    .pricing_box--text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 23px;
+                    }
+                    .pricing_special_offert {
+                        display: block;
+                        text-align: center;
+                    }
+
                 }
                 
             }

@@ -745,6 +745,12 @@ textarea {
   background-color: #fff;
 }
 
+@media (width <= 1000px) {
+  .pricing_main_box {
+    padding: 18px;
+  }
+}
+
 .pricing_main_box .container {
   flex-direction: column;
   justify-content: center;
@@ -757,11 +763,34 @@ textarea {
   margin-bottom: 71px;
 }
 
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_main_title {
+    margin-top: 54px;
+    margin-bottom: 14px;
+  }
+}
+
 .pricing_main_box .container .pricing_boxes_container {
   justify-content: space-between;
   gap: 59px;
   margin-bottom: 197px;
   display: flex;
+}
+
+@media (width <= 1352px) {
+  .pricing_main_box .container .pricing_boxes_container {
+    width: 100%;
+    justify-content: space-around;
+    gap: 20px;
+  }
+}
+
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_boxes_container {
+    width: auto;
+    flex-direction: column;
+    gap: 54px;
+  }
 }
 
 .pricing_main_box .container .pricing_boxes_container .pricing_box {
@@ -794,6 +823,12 @@ textarea {
   box-shadow: 5px 10px 27px #07ace629;
 }
 
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_boxes_container .pricing_box--zoom .pricing_box--text, .pricing_main_box .container .pricing_boxes_container .pricing_box--zoom .parametr_list {
+    transform: scale(.92);
+  }
+}
+
 .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_title {
   color: #13253b;
   margin-top: 34px;
@@ -802,6 +837,12 @@ textarea {
   font-size: 20px;
   font-weight: 700;
   line-height: 1px;
+}
+
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_title {
+    margin-top: 0;
+  }
 }
 
 .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_special_offert {
@@ -813,6 +854,12 @@ textarea {
   font-weight: 700;
 }
 
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_special_offert {
+    margin-bottom: 0;
+  }
+}
+
 .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_price {
   margin-top: 14px;
   margin-bottom: 70px;
@@ -820,6 +867,12 @@ textarea {
   font-size: 46px;
   font-weight: 300;
   display: inline-block;
+}
+
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_price {
+    margin: 0;
+  }
 }
 
 .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box_price--basic {
@@ -844,12 +897,24 @@ textarea {
   display: flex;
 }
 
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list {
+    align-items: flex-start;
+  }
+}
+
 .pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list li {
   color: #000;
   font-size: 14px;
   line-height: 41px;
   display: inline-block;
   position: relative;
+}
+
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list li {
+    line-height: 34px;
+  }
 }
 
 .pricing_main_box .container .pricing_boxes_container .pricing_box .parametr_list .check_mark {
@@ -891,6 +956,30 @@ textarea {
 
 .pricing_main_box .container .pricing_boxes_container .pricing_box .btn_pricing--premium {
   background-color: #55dfb4;
+}
+
+@media (width <= 1000px) {
+  .pricing_main_box .container .pricing_boxes_container .pricing_box {
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+  }
+
+  .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_box--text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 23px;
+    display: flex;
+  }
+
+  .pricing_main_box .container .pricing_boxes_container .pricing_box .pricing_special_offert {
+    text-align: center;
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=index.3f997115.css.map */
