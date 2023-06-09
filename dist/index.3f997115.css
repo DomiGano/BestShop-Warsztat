@@ -1140,4 +1140,44 @@ textarea {
   transform: scale(.95);
 }
 
+.page_footer {
+  background-color: #f7f7f7;
+  box-shadow: 0 -5px 40px #00000029;
+}
+
+.page_footer .container {
+  height: 89px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.page_footer .container .logo_box .logo_footer_text {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.page_footer .container .logo_box .copyright {
+  font-size: 11px;
+  line-height: 15px;
+  font-family: var(--font-open-sans);
+  letter-spacing: 0;
+  color: var(--color-light-gray);
+}
+
+.page_footer .container .socialmedia_box .footer_icon {
+  opacity: .7;
+  margin: 0 10px;
+}
+
+.page_footer .container .socialmedia_box .footer_icon:hover {
+  opacity: 1;
+}
+
+@media (width <= 792px) {
+  .page_footer .container .socialmedia_box .footer_icon {
+    opacity: 1;
+  }
+}
+
 /*# sourceMappingURL=index.3f997115.css.map */

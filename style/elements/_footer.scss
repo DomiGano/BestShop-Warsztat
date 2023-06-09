@@ -1,0 +1,42 @@
+@use "../settings/colors";
+@use "../settings/fonts";
+@use "../settings/variables";
+@use "../settings/mixins";
+@use "sass:list";
+
+
+.page_footer {
+    background-color: #F7F7F7;
+    box-shadow: 0px -5px 40px #00000029;
+    .container {
+        height: 89px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo_box {
+            .logo_footer_text {
+                font-size: 26px;
+                line-height: 30px;
+            }
+            .copyright {
+                font-size: 11px;
+                line-height: 15px;
+                font-family: var(--font-open-sans);
+                letter-spacing: 0px;
+                color: var(--color-light-gray); 
+            }
+        }
+        .socialmedia_box {
+            .footer_icon {
+                margin: 0 10px; 
+                opacity: 0.7;
+                &:hover {
+                 opacity: 1.0;
+                 }
+                 @include mixins.mobile {
+                 opacity: 1;
+                }
+             }             
+        }
+    }
+}
