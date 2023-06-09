@@ -1,16 +1,16 @@
 6033
-68/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Eye.10263c42.svg1686255718614831909 0
-74/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/index.3f997115.css.map1686256039987294530 0
-75/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Background.b0093fb6.png1686255718598831405 0
-76/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Checkmark-1.49adf3b1.svg1686255718614831909 0
-71/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Person.880b4a19.svg1686255718614831909 0
-70/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Close.f14f7566.svg1686255718614831909 0
-70/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/index.3f997115.css1686256039987294530 0
-83/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/10_Dzien_5_Warsztat.3464ddca.js1686255999302376350 0
-74/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Mail Icon.795518c4.svg1686255718614831909 0
-62/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/index.html1686255999326376902 0
-72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Trumpet.d291d6ae.png1686255718594831278 0
-51/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist1686256039987294530 1
+68/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Eye.10263c42.svg1686256837568721125 0
+74/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/index.3f997115.css.map1686257457498034820 0
+75/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Background.b0093fb6.png1686256837560721016 0
+76/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Checkmark-1.49adf3b1.svg1686256837548720853 0
+71/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Person.880b4a19.svg1686256837548720853 0
+70/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Close.f14f7566.svg1686256837568721125 0
+70/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/index.3f997115.css1686257457498034820 0
+83/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/10_Dzien_5_Warsztat.3464ddca.js1686256941777545226 0
+74/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Mail Icon.795518c4.svg1686256837548720853 0
+62/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/index.html1686256941781544886 0
+72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Trumpet.d291d6ae.png1686256837556720962 0
+51/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist1686257457498034820 1
 59/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/package.json1686076461085669115 0
 60/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/css/style.css1686071475543366147 0
 74/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/css/MODUŁ 1.code-workspace1686079531733259407 0
@@ -24,7 +24,7 @@
 69/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/images/Checkmark-1.svg1683612133123989914 0
 68/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/images/Background.png1683612133103990515 0
 64/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/package-lock.json1686069297916212356 0
-75/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/style/elements/_pricing.scss1686256113260862335 0
+75/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/style/elements/_pricing.scss1686257457330039968 0
 78/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/style/elements/_statistics.scss1686240469900318258 0
 72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/style/generic/_reset.scss1686072154939455782 0
 61/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/style/settings1686239579925747685 1
@@ -1029,7 +1029,7 @@
 112/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/csso/node_modules/css-tree/cjs/syntax/node/index.cjs1686068999438273437 0
 108/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@swc/helpers/src/_apply_decorated_descriptor.mjs1686068999826270713 0
 91/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/caniuse-lite/data/regions/ZA.js1686068999914270095 0
-72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Catalog.5ebe22b4.svg1686255718614831909 0
+72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Catalog.5ebe22b4.svg1686256837548720853 0
 109/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/caniuse-lite/data/features/css-scroll-behavior.js1686068999642272004 0
 110/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@swc/helpers/_/_class_apply_descriptor_destructure1686068999710271527 1
 94/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/cosmiconfig/dist/Explorer.d.ts.map1686068999126275626 0
@@ -2466,7 +2466,7 @@
 116/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/watcher/prebuilds/win32-x64/node.napi.glibc.node1686068999522272847 0
 83/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/domutils/lib/index.d.ts1686068999174275289 0
 131/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node/Url.js1686068999610272229 0
-57/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/index.html1686255999210374234 0
+57/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/index.html1686256941653555774 0
 120/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/csso/node_modules/css-tree/lib/syntax/node/MediaQueryList.js1686068999698271611 0
 91/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/cosmiconfig/dist/types.d.ts.map1686068999246274784 0
 72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/htmlnano/lib1686068999118275683 1
@@ -2586,7 +2586,7 @@
 117/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/css-select/node_modules/dom-serializer/lib/esm/index.d.ts1686068999154275430 0
 92/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/css-what/lib/commonjs/parse.d.ts1686068999218274981 0
 92/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/svgo/plugins/sortDefsChildren.js1686068999390273773 0
-73/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Facebook.b1acd7ee.svg1686255718614831909 0
+73/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Facebook.b1acd7ee.svg1686256837548720853 0
 83/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/lmdb/dist/index.cjs.map1686068999642272004 0
 87/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/workers/src/threads1686068999278274560 1
 122/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/csso/node_modules/css-tree/cjs/syntax/node/DeclarationList.cjs1686068999346274082 0
@@ -2959,7 +2959,7 @@
 123/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/sample-mdb.txt1686068999674271779 0
 109/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@swc/helpers/cjs/_is_native_reflect_construct.cjs1686068999326274223 0
 114/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/lmdb/node_modules/msgpackr/dist/unpack-no-eval.cjs.map1686068999474273184 0
-72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Twitter.1a2aeb0b.svg1686255718614831909 0
+72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Twitter.1a2aeb0b.svg1686256837568721125 0
 129/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/pseudo/has.js1686068999474273184 0
 90/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/csso/cjs/restructure/utils.cjs1686068999322274250 0
 108/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/lmdb/node_modules/node-addon-api/tools/README.md1686068999278274560 0
@@ -3374,7 +3374,7 @@
 83/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/ordered-binary/index.js1686068998974276694 0
 78/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/chrome-trace-event1686068999006276469 1
 115/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@swc/helpers/_/_initializer_warning_helper/package.json1686068999778271050 0
-72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Macbook.a5eb91ef.png1686255718594831278 0
+72/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Macbook.a5eb91ef.png1686256837556720962 0
 106/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/css-select/lib/pseudo-selectors/pseudos.js.map1686068999374273886 0
 103/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/csso/node_modules/css-tree/dist/version.cjs1686068999574272482 0
 98/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@swc/helpers/src/_write_only_error.mjs1686068999878270348 0
@@ -4134,7 +4134,7 @@
 115/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/css-select/node_modules/domutils/lib/esm/stringify.d.ts1686068999374273886 0
 82/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/diagnostic/lib1686068999038276244 1
 114/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/css-select/node_modules/domutils/lib/esm/legacy.js.map1686068999266274644 0
-87/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/10_Dzien_5_Warsztat.3464ddca.js.map1686255999322376811 0
+87/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/10_Dzien_5_Warsztat.3464ddca.js.map1686256941781544886 0
 112/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/csso/node_modules/css-tree/cjs/lexer/match-graph.cjs1686068999470273212 0
 111/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/css-select/node_modules/domutils/lib/esm/feeds.d.ts1686068999330274195 0
 104/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/source-map/dist/wasm-bindings-web.js1686068999214275009 0
@@ -4298,7 +4298,7 @@
 83/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@trysound/sax/README.md1686068998982276638 0
 113/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/index.js1686068999358273998 0
 81/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@trysound/sax/LICENSE1686068998838277649 0
-71/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/iPhone.65a507eb.png1686255718618832035 0
+71/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/iPhone.65a507eb.png1686256837556720962 0
 70/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/parcel/lib1686068998946276891 1
 77/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/parcel/lib/bin.js1686068998906277171 0
 77/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/parcel/lib/cli.js1686068998978276665 0
@@ -4421,7 +4421,7 @@
 89/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/css-tree/lib/lexer/generic.js1686068999666271836 0
 96/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/lightningcss/node/composeVisitors.js1686068999142275515 0
 86/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/graph/src/Graph.js1686068999150275458 0
-75/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Phone Icon.82019235.svg1686255718614831909 0
+75/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/dist/Phone Icon.82019235.svg1686256837568721125 0
 131/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/common/adopt-buffer.js1686068998926277031 0
 87/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/css-tree/lib/lexer/trace.js1686068999726271414 0
 111/home/gana/Pulpit/MODUŁ 1/10_Dzien_5_Warsztat/node_modules/csso/node_modules/css-tree/lib/syntax/node/Value.js1686068999734271358 0

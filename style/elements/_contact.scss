@@ -1,0 +1,156 @@
+@use "../settings/colors";
+@use "../settings/fonts";
+@use "../settings/variables";
+@use "../settings/mixins";
+
+    .contact_main_box {
+        display: flex;
+        justify-content: center;
+        .container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 59px;
+        width: 900px;
+        @include mixins.tablet {
+            align-items: center;
+            flex-direction: column;
+            padding: 0 30px;
+        }
+
+        
+        .information_box {
+            display: flex;
+            flex-direction: column;
+            .information_title {
+                    font-size: 49px;
+                    line-height: 49px;
+                    color: colors.$color-black;
+                    font-family: fonts.$font-raleway;
+                    @include mixins.tablet {
+                        font-size: 40px;
+                        line-height: 40px;
+                    }
+
+            }
+            .information_text {
+                    margin-top: 22px;
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-family: fonts.$font-open-sans;
+                    color: colors.$color-black;
+            }
+            .info_data_box {
+                display: flex;
+                justify-content: space-between;
+                .info_data {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 42px;
+                   
+                    .info_text {
+                        margin-left: 10px;
+                        font-size: 16px;
+                        line-height: 22px;
+                        font-family: fonts.$font-open-sans;
+                        font-weight: 600;
+                        color: colors.$color-light-gray;
+                    }
+                }
+                @include mixins.tablet {
+                    display: block;
+                    margin: 25px 0 56px 0;
+                    .info_data {
+                        margin-top: 17px;
+                    }
+                }
+            }
+        }
+        .contact_form_box {
+            .contact_form {
+                display: flex;
+                flex-direction: column;
+                max-width: 440px;
+                .contact_label {
+                    color: colors.$main-color;
+                    font-size: 11px;
+                    line-height: 15px;
+                    font-weight: 700;
+                    font-family: fonts.$font-open-sans;
+                    text-transform: uppercase;
+                    letter-spacing: 3.28px;
+                    &[for="E-mail"] {
+                        margin-top: 12px;
+                    }
+                }
+                .contact_form_input {
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid colors.$color-light-gray;
+                    height: 40px;
+                    margin-bottom: 30px;
+                    color: colors.$main-color;
+                }
+                .checkbox_lable {
+                    margin-left: 34px;
+                    position: relative;
+                    .checkbox_lable_text {
+                        font-size: 12px;
+                        line-height: 17px;
+                        font-family: fonts.$font-open-sans;
+                        color: #707070;
+                    }
+                    input {
+                        width: 0;
+                        height: 0;
+                        &::before {
+                            content: "";
+                            width: 24px;
+                            height: 24px;
+                            border: 1px solid #95989A;
+                            border-radius: 4px;
+                            position: absolute;
+                            left: -34px;
+                            top: 0;
+                        }
+                        &:checked::before {
+                            background-image: url(../images/Checkmark.svg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: 12px;
+                        }
+                    }
+                }
+                .form_btn {
+                    align-self: flex-end;
+                    margin-top: 20px;
+                    box-shadow: 5px 10px 14px colors.$shadow-color;
+                    border-radius: 35px;
+                    padding: 20px 97px;
+                    border: none;
+                    transition: all 1s;
+                    &hover {
+                        opacity: 0.8;
+                        transform: scale(0.95);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
