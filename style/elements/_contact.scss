@@ -4,6 +4,7 @@
 @use "../settings/mixins";
 
     .contact_main_box {
+        padding: 60px;
         display: flex;
         justify-content: center;
         .container{
@@ -19,6 +20,7 @@
 
         
         .information_box {
+            margin-top: 22px;
             display: flex;
             flex-direction: column;
             .information_title {

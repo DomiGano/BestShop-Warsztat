@@ -45,23 +45,28 @@
                 display: flex;
                 align-items: center;
                 width: 100%;
-                .navigation_text {
+                .nav__li {
                     height: 70px;
-                    text-decoration: none;
                     padding: 28px 12px;
-                    text-transform: uppercase;
-                    font-size: 11px;
-                    line-height: 15px;
-                    font-weight: 700; 
-                    letter-spacing: 3.28px;
-                    color: colors.$color-light-gray;
-                    margin-left: 71px;
                     border-bottom: solid 4px transparent;
+                    margin-left: 71px;
                     &:hover {
-                        color: colors.$color-black;
                         border-bottom: solid 4px colors.$main-color;
+                        .navigation_text {
+                            color: colors.$color-black;
+                        }
+                    }
+                    .navigation_text {
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-size: 11px;
+                        line-height: 15px;
+                        font-weight: 700; 
+                        letter-spacing: 3.28px;
+                        color: colors.$color-light-gray;                    
                     }
                 }
+                
             }
             @include mixins.mobile {
                 .menu_icon--burger {
