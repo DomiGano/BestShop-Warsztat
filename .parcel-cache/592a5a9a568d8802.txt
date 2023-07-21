@@ -1,0 +1,45 @@
+44
+54/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/js/app.js1689406885432433715 0
+58/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/css/style.css1689972968479428296 0
+58/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/css/reset.css1689972968479428296 0
+72/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/css/MODUŁ 1.code-workspace1689972968479428296 0
+63/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Trumpet.png1683612133259985831 0
+65/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Checkmark.svg1683612133139989434 0
+62/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/iPhone.png1683612133187987993 0
+59/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Eye.svg1683612133163988713 0
+67/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Checkmark-1.svg1683612133123989914 0
+47/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/js1689363353097486937 1
+58/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/generic1689973015019499256 1
+64/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Facebook.svg1683612133175988353 0
+66/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Phone Icon.svg1683612133243986312 0
+59/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements1689973012539495444 1
+70/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/generic/_reset.scss1686072154939455782 0
+55/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/index.html1689406711632575317 0
+65/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Mail Icon.svg1683612133211987273 0
+72/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/settings/_colors.scss1689362719624887324 0
+62/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Person.svg1683612133227986792 0
+71/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/settings/_fonts.scss1686070585968747255 0
+59/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/settings1689973020099507070 1
+61/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Close.svg1683612133151989074 0
+50/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style1689973020631507889 1
+60/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/main.scss1689361693908058479 0
+72/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/settings/_mixins.scss1686248842864184133 0
+80/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements/_basic_elements.scss1686080789262377528 0
+63/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Twitter.svg1683612133271985471 0
+61/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Arrow.svg1689098146659034117 0
+44/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat1689973370652071529 1
+76/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements/_calculator.scss1689406678284606262 0
+57/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/package.json1689972968487428308 0
+76/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements/_statistics.scss1686240469900318258 0
+72/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements/_footer.scss1686329710271452994 0
+72/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements/_header.scss1689092989806564892 0
+73/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements/_contact.scss1689362457520507454 0
+73/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements/_pricing.scss1686257457330039968 0
+63/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Catalog.svg1683612133111990275 0
+63/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Macbook.png1683612133199987632 0
+62/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/package-lock.json1689972968487428308 0
+75/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/settings/_variables.scss1686157184337950517 0
+51/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images1689973042755542073 1
+48/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/css1689972968479428296 1
+74/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/style/elements/_benefits.scss1686248135157479206 0
+66/home/gana/Pulpit/WARSZTAT/BestShop-Warsztat/images/Background.png1683612133103990515 0
